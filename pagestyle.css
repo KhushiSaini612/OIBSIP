@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.up{
+    background-color: rgb(141, 83, 36);;
+    width: 100%;
+    height: 60px;
+    display: flex; 
+}
+.fa-solid{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 17px;   
+}
+.upcorner{
+    display: flex;
+    margin-left: 1000px;
+    justify-content: space-between;
+    margin-top: 15px;   
+}
+.ani{
+    font-size: 20px;
+}
+.quo{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.rec{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.gal{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.ani:hover{
+    cursor: pointer;
+    color: rgb(233, 197, 56);
+    text-decoration: underline rgb(233, 197, 56);
+}
+.rec:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(233, 197, 56);
+    color: rgb(233, 197, 56);
+}
+.gal:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(233, 197, 56);
+    color: rgb(233, 197, 56);
+}
+.quo:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(233, 197, 56);
+   color: rgb(233, 197, 56);
+}
+.fa-solid:hover{
+    cursor: pointer;
+    color: rgb(233, 197, 56);      
+}
+.outer{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+.ques{
+    height: 60px;
+    color: aliceblue;
+    margin-left: 500px;
+    font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.ques h1{
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+.ques h1:hover{
+    color: rgb(141, 83, 36);
+}
+.exp{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+}
+.exp p{
+    font-size: larger;
+    text-align: start;
+    font-size: 20px;   
+}
+.img{
+    width: 950px;
+    height: 700px;
+    margin-left: 250px;
+    margin-top: 25px;
+    background-image: url("animepic.webp");
+    border: 5px solid white;
+    background-size: cover;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.img:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid rgb(141, 83, 36);
+}
+.quodiv{
+    width: 100%;
+    height: 500px;
+}
+.ques1{
+height: 70px;
+color: rgb(54, 5, 5);
+margin-left: 600px;
+font-size: larger;
+margin-top: 25px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+.ques1 h1{
+    font-weight: bolder;
+    font-size: 60px;  
+}
+.ques1 h1:hover{
+    color: rgb(233, 197, 56);
+    cursor: pointer;
+}
+.quoexp{
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: larger;
+}
+.quoexp p:hover{
+    text-decoration: underline;
+}
+.toprec{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: -80px;
+}
+.ques2{
+    height: 60px;
+    color: aliceblue;
+    margin-left: 500px;
+    font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.ques2 h1{
+    font-weight: bolder;
+    font-size: 46px;
+}
+.ques2 h1:hover{
+    cursor: pointer;
+    color: rgb(223, 132, 27);
+}
+.recs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.recimg1{
+    background-image: url("deathnotecover.jpg");
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    border: 5px solid white;  
+}
+.recimg1:hover{
+    border: 5px solid rgb(141, 83, 36);
+    border-radius: 10px;
+}
+.recimg2{
+    background-image: url("dspic.jpeg");
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: 5px solid white;
+}
+.recimg2:hover{
+    border: 5px solid rgb(141, 83, 36);
+    border-radius: 10px;
+}
+.recimg3{
+    background-image: url("aotcover.jpeg");
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: 5px solid white;
+}
+.recimg3:hover{
+    border: 5px solid rgb(141, 83, 36);
+    border-radius: 10px;
+}
+.recimg4{
+    background-image: url("jkcover.jpeg");
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 5px solid white;
+}
+.recimg4:hover{
+    border: 5px solid rgb(141, 83, 36);
+    border-radius: 10px;
+}
+.recimg5{
+    background-image: url("yliapic.jpg");
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 5px solid white;
+}
+.recimg5:hover{
+    border: 5px solid rgb(141, 83, 36);
+    border-radius: 10px;
+}
+.rec1{
+    margin-left: 35px;
+    width: 200px;
+}
+.rec2{
+    margin-left: 25px;
+    width: 250px;
+}
+.rec3{
+    margin-left: 25px;
+    width: 250px;   
+}
+.rec4{  
+    margin-left: 30px;
+    margin-right: 15px;
+    width: 250px;
+}
+.rec5{
+    margin-right: 35px;
+    width: 250px;
+}
+.rec1:hover{
+    cursor: pointer;   
+}
+.rec2:hover{
+    cursor: pointer;   
+}
+.rec3:hover{
+    cursor: pointer;    
+}
+.rec4:hover{
+    cursor: pointer;   
+}
+.rec5:hover{
+    cursor: pointer;   
+}
+.rechead{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.rechead:hover{
+    color: rgb(141, 83, 36);
+}
+.reccont{
+    margin-top: 10px;
+    text-align: justify;
+}
+.gallery{
+    width: 100%;
+    height: 1300px;
+}
+.ques3{
+    height: 70px;
+    color: rgb(54, 5, 5);
+    margin-left: 600px;
+    font-size: larger;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+.ques3 h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.ques3 h1:hover{
+    color: rgb(233, 197, 56);
+    cursor: pointer;   
+}
+.galfirst{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.galsecond{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.galthird{
+    display: flex;
+    justify-content: space-between;
+}
+.pic1{
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin-left: 200px;
+    border: 5px solid rgb(54, 5, 5);    
+}
+.pic2{
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic3{
+    background-image: url(pic3new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic4{
+    background-image: url(pic4new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin-right: 200px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic5{
+    background-image: url(pic5new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin-left: 200px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic6{
+    background-image: url(pic6new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic7{
+    background-image: url(pic7new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic8{
+    background-image: url(pic8new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin-right: 200px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic9{
+    background-image: url(pic9.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    margin-left: 200px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic10{
+    background-image: url(pic10new.png);
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic11{
+    background-image: url(pic11new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic12{
+    background-image: url(pic12new.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    margin-right: 200px;
+    border: 5px solid rgb(54, 5, 5);
+}
+.pic1:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic2:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic3:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic4:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic5:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic6:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic7:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic8:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic9:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic10:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
+.pic11:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}.pic12:hover{
+    cursor: pointer;
+    border: 5px solid rgb(233, 197, 56);
+}
