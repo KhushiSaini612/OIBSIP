@@ -1,6 +1,6 @@
 # OIBSIP
 This is a repository for my tasks of Web Development and Designing Internship at Oasis Infobyte.
-Built Landing Page, Portfolio and Temperature Converter Website using HTML, CSS and JavaScript
+Built a Landing Page, Portfolio and Temperature Converter Website using HTML, CSS and JavaScript
 1. Landing Page
    <img width="1917" height="915" alt="image" src="https://github.com/user-attachments/assets/4928d885-c253-47dd-bd2b-646bc09267df" />
 2. Portfolio
